@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step by Step - Подготовка к школе в Гданьске</title>
+    <meta name="description"
+        content="Профессиональная помощь педагога с 18-летним стажем для детей мигрантов и детей с особыми потребностями в Гданьске.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo-link">
+                <img src="логотип.jpg" alt="Step by Step Logo" class="logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#formats">Формат</a></li>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#faq">Вопросы</a></li>
+                <li><a href="#pricing">Цены</a></li>
+                <li><a href="#contact" class="btn btn-outline">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>
+                    <span>Польский язык</span> для детей и взрослых<br>и подготовка к школе
+                </h1>
+                <h1 lang="pl" class="hero-pl" style="font-size: 20px; margin-top:-10px; margin-bottom:15px;">
+                    Język polski i przygotowanie do szkoły
+                </h1>
+                <p class="subtitle">Индивидуальный подход • Педагог с 18-летним опытом</p>
+                <div class="hero-card">
+                    <p>Онлайн и офлайн занятия в Гданьске (Stogi)<br>Бережное развитие и специализированная поддержка детей с особыми образовательными потребностями.</p>
+                </div>
+                
+                <!-- Trust Badges -->
+                <div class="trust-badges" style="margin-bottom:20px;">
+                    <span class="badge" style="background:var(--secondary); color:white; padding:5px 10px; border-radius:10px;"><i class="fa-solid fa-graduation-cap"></i> 18 лет опыта</span>
+                    <span class="badge" style="background:var(--primary); color:white; padding:5px 10px; border-radius:10px;"><i class="fa-solid fa-puzzle-piece"></i> Сенсорная терапия</span>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Выбрать программу</a>
+                    <a href="#faq" class="btn btn-secondary">Задать вопрос</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="blob-shape"></div>
+                <img src="../для сайта/unnamed (5).jpg" alt="Step by Step Образование" class="hero-image-main">
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Что я предлагаю</h2>
+                <h2 lang="pl" class="title-pl">W czym mogę pomóc</h2>
+            </div>
+            
+            <div class="services-advanced-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; align-items: start;">
+                
+                <!-- Service 1 -->
+                <div class="service-card advanced-card" style="text-align:left; background:var(--bg-card); padding:30px; border-radius:var(--radius); box-shadow:var(--shadow-sm);">
+                    <div class="service-icon" style="margin:0 0 15px 0;"><i class="fa-solid fa-child"></i></div>
+                    <h3>Польский язык для детей (с 6 лет)</h3>
+                    <p style="color:var(--text-pl); font-size:14px; font-weight:700; margin-bottom:10px;">On-line / Off-line</p>
+                    <p style="margin-bottom:15px;">Помогаем ребёнку уверенно чувствовать себя в школе.</p>
+                    
+                    <button onclick="toggleService('desc1')" style="cursor:pointer; font-weight:700; color:var(--primary); background:none; border:none; padding:0; outline:none; font-size:16px;">Узнать подробнее <i id="icon-desc1" class="fa-solid fa-chevron-down" style="transition:0.3s;"></i></button>
+                    
+                    <div id="desc1" style="max-height:0px; overflow:hidden; transition: max-height 0.4s ease-in-out;">
+                        <div style="padding-top:15px; font-size:15px; color:var(--text-main);">
+                            <strong>Кому подойдут:</strong>
+                            <ul style="margin-left:20px; margin-bottom:10px; color:var(--text-muted);">
+                                <li>Только начинают изучение языка</li>
+                                <li>Испытывают трудности с чтением или письмом</li>
+                                <li>Боятся отвечать на уроках</li>
+                            </ul>
+                            <strong>Что развиваем:</strong>
+                            <p style="color:var(--text-muted);">Словарный запас, правильное произношение. А также: внимание, слуховое восприятие, память и логику с помощью игр.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card advanced-card" style="text-align:left; background:var(--bg-card); padding:30px; border-radius:var(--radius); box-shadow:var(--shadow-sm);">
+                    <div class="service-icon" style="margin:0 0 15px 0;"><i class="fa-solid fa-comments"></i></div>
+                    <h3>Польский для подростков и взрослых</h3>
+                    <p style="color:var(--text-pl); font-size:14px; font-weight:700; margin-bottom:10px;">On-line</p>
+                    <p style="margin-bottom:15px;">Говорите уверенно! Практическое использование языка без стресса.</p>
+                    
+                    <button onclick="toggleService('desc2')" style="cursor:pointer; font-weight:700; color:var(--primary); background:none; border:none; padding:0; outline:none; font-size:16px;">Узнать подробнее <i id="icon-desc2" class="fa-solid fa-chevron-down" style="transition:0.3s;"></i></button>
+                    
+                    <div id="desc2" style="max-height:0px; overflow:hidden; transition: max-height 0.4s ease-in-out;">
+                        <div style="padding-top:15px; font-size:15px; color:var(--text-main);">
+                            <strong>Что изучается:</strong>
+                            <ul style="margin-left:20px; margin-bottom:10px; color:var(--text-muted);">
+                                <li>Разговорная практика в повседневных ситуациях</li>
+                                <li>Грамматика простым языком</li>
+                                <li>Язык для работы, школы, гос. учреждений</li>
+                            </ul>
+                            <strong>Результат:</strong>
+                            <p style="color:var(--text-muted);">Вы уверенно общаетесь в ситуациях, понимаете разговорную речь.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card advanced-card" style="text-align:left; background:var(--bg-card); padding:30px; border-radius:var(--radius); box-shadow:var(--shadow-sm);">
+                    <div class="service-icon" style="margin:0 0 15px 0;"><i class="fa-solid fa-hands-holding-child"></i></div>
+                    <h3>Особые потребности (ОПП)</h3>
+                    <p style="color:var(--text-pl); font-size:14px; font-weight:700; margin-bottom:10px;">Off-line (Гданьск)</p>
+                    <p style="margin-bottom:15px;">Индивидуальный подход к детям с аутизмом, ЗПР, гиперактивностью.</p>
+                    
+                    <button onclick="toggleService('desc3')" style="cursor:pointer; font-weight:700; color:var(--primary); background:none; border:none; padding:0; outline:none; font-size:16px;">Узнать подробнее <i id="icon-desc3" class="fa-solid fa-chevron-down" style="transition:0.3s;"></i></button>
+                    
+                    <div id="desc3" style="max-height:0px; overflow:hidden; transition: max-height 0.4s ease-in-out;">
+                        <div style="padding-top:15px; font-size:15px; color:var(--text-main);">
+
+                            <strong>Работаю с детьми у которых:</strong>
+                            <ul style="margin-left:20px; margin-bottom:10px; color:var(--text-muted);">
+                                <li>Аутизм, ЗПР, задержка речевого развития</li>
+                                <li>Нарушения зрения (слабовидящие и слепые)</li>
+                                <li>Трудности с концентрацией</li>
+                            </ul>
+                            <strong>Методы:</strong>
+                            <p style="color:var(--text-muted);">Элементы сенсорной интеграции, музыкотерапия, визуальная поддержка.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card advanced-card" style="text-align:left; background:var(--bg-card); padding:30px; border-radius:var(--radius); box-shadow:var(--shadow-sm);">
+                    <div class="service-icon" style="margin:0 0 15px 0;"><i class="fa-solid fa-school"></i></div>
+                    <h3>Комплексная подготовка (0-3 класс)</h3>
+                    <p style="color:var(--text-pl); font-size:14px; font-weight:700; margin-bottom:10px;">On-line / Off-line</p>
+                    <p style="margin-bottom:15px;">Ребёнок будет учиться понимать инструкции и выполнять задания.</p>
+                    
+                    <button onclick="toggleService('desc4')" style="cursor:pointer; font-weight:700; color:var(--primary); background:none; border:none; padding:0; outline:none; font-size:16px;">Узнать подробнее <i id="icon-desc4" class="fa-solid fa-chevron-down" style="transition:0.3s;"></i></button>
+                    
+                    <div id="desc4" style="max-height:0px; overflow:hidden; transition: max-height 0.4s ease-in-out;">
+                        <div style="padding-top:15px; font-size:15px; color:var(--text-main);">
+                            <strong>Что мы изучаем:</strong>
+                            <ul style="margin-left:20px; margin-bottom:10px; color:var(--text-muted);">
+                                <li><strong>Польский язык:</strong> алфавит, классные инструкции, письмо.</li>
+                                <li><strong>Математика:</strong> цифры, счёт, сравнение чисел, логика.</li>
+                                <li><strong>Когнитивные навыки:</strong> внимание, память, концентрация.</li>
+                            </ul>
+                            <p style="color:var(--text-muted);">Помогаем быстрее адаптироваться в школе без сильного стресса.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Formats Section (Two Columns) -->
+    <section id="formats" class="formats section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Формат занятий</h2>
+                <h2 lang="pl" class="title-pl">Formaty zajęć</h2>
+            </div>
+            
+            <div class="formats-grid" style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: center;">
+                <!-- Online -->
+                <div class="format-card" style="flex: 1; min-width: 300px; background: var(--bg-card); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-sm);">
+                    <img src="../для сайта/unnamed (6).jpg" alt="Онлайн обучение" style="width: 100%; height: 250px; object-fit: cover;">
+                    <div class="format-content" style="padding: 30px;">
+                        <h3 style="margin-bottom: 15px;"><i class="fa-solid fa-laptop-house" style="color:var(--primary);"></i> Онлайн занятия</h3>
+                        <p style="color:var(--text-muted); margin-bottom: 15px;">Идеально для тех, кто предпочитает комфорт дома или живёт далеко.</p>
+                        <ul style="list-style: none; color:var(--text-main);">
+                            <li style="margin-bottom: 10px;"><i class="fa-solid fa-circle-check" style="color:var(--secondary); margin-right:8px;"></i> Интерактивные презентации и игры</li>
+                            <li style="margin-bottom: 10px;"><i class="fa-solid fa-circle-check" style="color:var(--secondary); margin-right:8px;"></i> Экономия времени на дорогу</li>
+                            <li><i class="fa-solid fa-circle-check" style="color:var(--secondary); margin-right:8px;"></i> Индивидуальная удобная программа</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Offline -->
+                <div class="format-card" style="flex: 1; min-width: 300px; background: var(--bg-card); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-sm);">
+                    <img src="../для сайта/unnamed (7).jpg" alt="Офлайн обучение" style="width: 100%; height: 250px; object-fit: cover;">
+                    <div class="format-content" style="padding: 30px;">
+                        <h3 style="margin-bottom: 15px;"><i class="fa-solid fa-building-user" style="color:var(--primary);"></i> Офлайн (Гданьск)</h3>
+                        <p style="color:var(--text-muted); margin-bottom: 15px;">Индивидуальные занятия в комфортной домашней обстановке (Stogi или с доездом).</p>
+                        <ul style="list-style: none; color:var(--text-main);">
+                            <li style="margin-bottom: 10px;"><i class="fa-solid fa-circle-check" style="color:var(--secondary); margin-right:8px;"></i> Сенсорные и наглядные пособия</li>
+                            <li style="margin-bottom: 10px;"><i class="fa-solid fa-circle-check" style="color:var(--secondary); margin-right:8px;"></i> Практика речи лицо-к-лицу</li>
+                            <li><i class="fa-solid fa-circle-check" style="color:var(--secondary); margin-right:8px;"></i> Безопасная атмосфера для ребёнка</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section bg-light">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-col">
+                    <img src="моё фото.jpg" alt="Фото преподавателя" class="about-photo">
+                    <div class="diploma-wrapper" id="diploma-btn">
+                        <img src="дипломы.png" alt="Дипломы" class="diploma-thumb">
+                        <div class="diploma-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            <span>Мои квалификации</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <div class="section-title left">
+                        <h2>Обо мне</h2>
+                        <h2 lang="pl" class="title-pl">O mnie</h2>
+                    </div>
+
+                    <div class="about-text-box">
+                        <p style="font-size: 18px;">Меня зовут <strong>Алёна</strong>. Я педагог с 18-летним опытом работы с детьми и взрослыми.</p>
+                        <p>Моя цель — помочь каждому учиться спокойно, уверенно и без стресса.</p>
+
+                        <h4 style="margin-top: 25px; margin-bottom: 15px; font-size: 20px;">Моё образование:</h4>
+                        <ul style="list-style: none;">
+                            <li style="margin-bottom: 10px;"><i class="fa-solid fa-check" style="color:var(--primary); margin-right:10px;"></i> Учитель начальных классов (0–3 класс)</li>
+                            <li style="margin-bottom: 10px;"><i class="fa-solid fa-check" style="color:var(--primary); margin-right:10px;"></i> Учитель английского языка</li>
+                            <li style="margin-bottom: 10px;"><i class="fa-solid fa-check" style="color:var(--primary); margin-right:10px;"></i> <strong>Олигофренопедагог</strong> <span style="color:var(--text-muted);">(обучение детей с особенностями)</span></li>
+                            <li style="margin-bottom: 10px;"><i class="fa-solid fa-check" style="color:var(--primary); margin-right:10px;"></i> <strong>Тифлопедагог</strong> <span style="color:var(--text-muted);">(обучение слабовидящих/слепых детей)</span></li>
+                            <li><i class="fa-solid fa-check" style="color:var(--primary); margin-right:10px;"></i> Терапевт сенсорной интеграции и музыкотерапии</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Reviews Tracker -->
+            <div class="social-proof" style="margin-top: 60px; text-align: center;">
+                <h3 style="font-size: 24px; margin-bottom: 30px;">Прогресс — как видят родители:</h3>
+                <div class="reviews-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+                    <div class="review" style="background: white; padding: 25px; border-radius: var(--radius); box-shadow: var(--shadow-sm); border-left: 4px solid var(--secondary);">
+                        <i class="fa-solid fa-quote-left" style="color: var(--secondary); font-size: 24px; margin-bottom: 15px;"></i>
+                        <p style="font-style: italic; color: var(--text-muted);">"Ребёнок стал увереннее говорить на уроках и дома. Уменьшился страх перед школой."</p>
+                    </div>
+                    <div class="review" style="background: white; padding: 25px; border-radius: var(--radius); box-shadow: var(--shadow-sm); border-left: 4px solid var(--secondary);">
+                        <i class="fa-solid fa-quote-left" style="color: var(--secondary); font-size: 24px; margin-bottom: 15px;"></i>
+                        <p style="font-style: italic; color: var(--text-muted);">"Всего через пару занятий улучшилась концентрация. Ребёнок активно участвует."</p>
+                    </div>
+                    <div class="review" style="background: white; padding: 25px; border-radius: var(--radius); box-shadow: var(--shadow-sm); border-left: 4px solid var(--secondary);">
+                        <i class="fa-solid fa-quote-left" style="color: var(--secondary); font-size: 24px; margin-bottom: 15px;"></i>
+                        <p style="font-style: italic; color: var(--text-muted);">"С удовольствием ходит на занятия. Материал подаётся невероятно интересно и без стресса."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Частые вопросы</h2>
+                <h2 lang="pl" class="title-pl">Częste pytania</h2>
+            </div>
+            
+            <div class="faq-container" style="max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 15px;">
+                <!-- FAQ 1 -->
+                <div style="background: var(--bg-card); padding: 20px; border-radius: var(--radius); box-shadow: var(--shadow-sm);">
+                    <button onclick="toggleFaq('faq1')" style="width: 100%; text-align: left; background: none; border: none; font-size: 18px; font-weight: 700; color: var(--text-main); outline: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; padding: 0;">
+                        С какого возраста можно заниматься?
+                        <i id="icon-faq1" class="fa-solid fa-chevron-down" style="transition:0.3s; color:var(--primary);"></i>
+                    </button>
+                    <div id="faq1" style="max-height:0px; overflow:hidden; transition: max-height 0.4s ease-in-out;">
+                        <p style="margin-top: 15px; color: var(--text-muted);">Изучение польского языка и подготовка к школе начинаются с 6 лет. Для программ спецпотребностей (ОПП) подход и возраст индивидуальны.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 2 -->
+                <div style="background: var(--bg-card); padding: 20px; border-radius: var(--radius); box-shadow: var(--shadow-sm);">
+                    <button onclick="toggleFaq('faq2')" style="width: 100%; text-align: left; background: none; border: none; font-size: 18px; font-weight: 700; color: var(--text-main); outline: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; padding: 0;">
+                        Сколько длится занятие?
+                        <i id="icon-faq2" class="fa-solid fa-chevron-down" style="transition:0.3s; color:var(--primary);"></i>
+                    </button>
+                    <div id="faq2" style="max-height:0px; overflow:hidden; transition: max-height 0.4s ease-in-out;">
+                        <p style="margin-top: 15px; color: var(--text-muted);">Занятие длится 40–60 минут, в зависимости от возраста ребёнка, формата урока и когнитивной нагрузки.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 3 -->
+                <div style="background: var(--bg-card); padding: 20px; border-radius: var(--radius); box-shadow: var(--shadow-sm);">
+                    <button onclick="toggleFaq('faq3')" style="width: 100%; text-align: left; background: none; border: none; font-size: 18px; font-weight: 700; color: var(--text-main); outline: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; padding: 0;">
+                        Эффективны ли онлайн занятия?
+                        <i id="icon-faq3" class="fa-solid fa-chevron-down" style="transition:0.3s; color:var(--primary);"></i>
+                    </button>
+                    <div id="faq3" style="max-height:0px; overflow:hidden; transition: max-height 0.4s ease-in-out;">
+                        <p style="margin-top: 15px; color: var(--text-muted);">Да, абсолютно. Мы используем интерактивные материалы, презентации и дидактические игры. Ребёнок (или взрослый) активно вовлечён в процесс не меньше, чем в классе.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 4 -->
+                <div style="background: var(--bg-card); padding: 20px; border-radius: var(--radius); box-shadow: var(--shadow-sm);">
+                    <button onclick="toggleFaq('faq4')" style="width: 100%; text-align: left; background: none; border: none; font-size: 18px; font-weight: 700; color: var(--text-main); outline: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; padding: 0;">
+                        Как проходит пробная встреча (диагностика)?
+                        <i id="icon-faq4" class="fa-solid fa-chevron-down" style="transition:0.3s; color:var(--primary);"></i>
+                    </button>
+                    <div id="faq4" style="max-height:0px; overflow:hidden; transition: max-height 0.4s ease-in-out;">
+                        <p style="margin-top: 15px; color: var(--text-muted);">На первой встрече мы знакомимся, я в комфортной и игровой форме оцениваю текущие навыки. После этого мы обсуждаем индивидуальный план достижения ваших целей.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Прайс-лист (40 минут)</h2>
+                <h2 lang="pl" class="title-pl">Cennik (40 min)</h2>
+                <div style="background:var(--bg-card); padding:20px; border-radius:var(--radius); box-shadow:var(--shadow-sm); max-width:800px; margin: 30px auto; text-align:center; border: 2px solid var(--secondary);">
+                    <h3 style="color:var(--primary); font-size:22px; margin-bottom:10px;"><i class="fa-solid fa-gift" style="color:var(--secondary);"></i> Первая встреча-консультация (Online) — БЕСПЛАТНО!</h3>
+                    <p style="color:var(--text-main); font-size:16px;">На встрече мы проводим диагностику уровня/особенностей, подбираем индивидуальную программу, я показываю формат занятий и отвечаю на все ваши вопросы.</p>
+                </div>
+            </div>
+
+            <div class="pricing-table-wrapper" style="overflow-x:auto; margin-bottom: 40px;">
+                <table style="width:100%; min-width:800px; border-collapse:separate; border-spacing:0; background:white; border-radius:var(--radius); overflow:hidden; box-shadow:var(--shadow-sm); text-align:left;">
+                    <thead style="background:var(--primary); color:white;">
+                        <tr>
+                            <th style="padding:20px 15px; font-weight:700;">Категория обучения</th>
+                            <th style="padding:20px 15px; font-weight:700;">Формат</th>
+                            <th style="padding:20px 15px; font-weight:700;">Разово</th>
+                            <th style="padding:20px 15px; font-weight:700;">Пакет 4 <br><span style="font-size:13px; font-weight:400;">(≈5% скидка)</span></th>
+                            <th style="padding:20px 15px; font-weight:700;">Пакет 8 <br><span style="font-size:13px; font-weight:400;">(≈10% скидка)</span></th>
+                        </tr>
+                    </thead>
+                    <tbody style="color:var(--text-main);">
+                        <!-- Row 1 -->
+                        <tr style="border-bottom:1px solid #eee;">
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee;"><strong>1. Польский для детей (6+)</strong></td>
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee; color:var(--text-muted);">Online</td>
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee; font-weight:700;">70 PLN</td>
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee; font-weight:700; color:var(--primary);">265 PLN</td>
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee; font-weight:700; color:var(--primary);">500 PLN</td>
+                        </tr>
+                        <!-- Row 2 -->
+                        <tr style="border-bottom:1px solid #eee;">
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee;"><strong>2. Подростки / Взрослые</strong></td>
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee; color:var(--text-muted);">Online</td>
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee; font-weight:700;">80 PLN</td>
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee; font-weight:700; color:var(--primary);">305 PLN</td>
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee; font-weight:700; color:var(--primary);">575 PLN</td>
+                        </tr>
+                        <!-- Row 3 -->
+                        <tr style="border-bottom:1px solid #eee;">
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee;"><strong>3. Дети с ООП (Аутизм, ЗПР)</strong></td>
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee; color:var(--text-muted);">Offline</td>
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee; font-weight:700;">110 PLN</td>
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee; font-weight:700; color:var(--primary);">420 PLN</td>
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee; font-weight:700; color:var(--primary);">790 PLN</td>
+                        </tr>
+                        <!-- Row 4 -->
+                        <tr style="background:#fcfcfc;">
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee;" rowspan="2"><strong>4. Подготовка к школе</strong></td>
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee; color:var(--text-muted);">Online</td>
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee; font-weight:700;">80 PLN</td>
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee; font-weight:700; color:var(--primary);">305 PLN</td>
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee; font-weight:700; color:var(--primary);">575 PLN</td>
+                        </tr>
+                        <tr style="background:#fcfcfc;">
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee; color:var(--text-muted);">Offline</td>
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee; font-weight:700;">95 PLN</td>
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee; font-weight:700; color:var(--primary);">360 PLN</td>
+                            <td style="padding:20px 15px; border-bottom:1px solid #eee; font-weight:700; color:var(--primary);">685 PLN</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Inclusions & Org info -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px;">
+                <div style="background: white; padding: 25px; border-radius: var(--radius); box-shadow: var(--shadow-sm); border-top: 4px solid var(--primary);">
+                    <h3 style="margin-bottom: 15px; font-size: 20px;"><i class="fa-solid fa-list-check" style="color:var(--primary);"></i> Что включено:</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 15px; color: var(--text-main);"><i class="fa-solid fa-check" style="color:var(--secondary); margin-right:8px;"></i> <strong>Индивидуальный подход:</strong> программа выстраивается под конкретные цели и особенности ученика.</li>
+                        <li style="color: var(--text-main);"><i class="fa-solid fa-check" style="color:var(--secondary); margin-right:8px;"></i> <strong>Материалы:</strong> при Offline обучении все пособия, распечатки и оборудование (включая сенсорные материалы) предоставляются мной.</li>
+                    </ul>
+                </div>
+                
+                <div style="background: white; padding: 25px; border-radius: var(--radius); box-shadow: var(--shadow-sm); border-top: 4px solid var(--primary);">
+                    <h3 style="margin-bottom: 15px; font-size: 20px;"><i class="fa-solid fa-circle-info" style="color:var(--primary);"></i> Организационные моменты:</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 10px; color: var(--text-main);"><i class="fa-solid fa-location-dot" style="width:20px; color:var(--secondary);"></i> <strong>Место (Offline):</strong> Гданьск</li>
+                        <li style="margin-bottom: 10px; color: var(--text-main);"><i class="fa-solid fa-clock" style="width:20px; color:var(--secondary);"></i> <strong>Длительность:</strong> 40 мин (оптимально для концентрации).</li>
+                        <li style="color: var(--text-main);"><i class="fa-solid fa-credit-card" style="width:20px; color:var(--secondary);"></i> <strong>Пакеты:</strong> оплата производится после бесплатной консультации перед первым занятием.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer id="contact" class="footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>Связаться со мной</h3>
+                <h3 lang="pl" class="title-pl-small">Kontakt</h3>
+                <p>Запишитесь на первую встречу-диагностику и подарите ребенку радость от учебы!</p>
+
+                <div class="social-links">
+                    <a href="https://wa.me/48782425330" target="_blank" class="social-btn whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                    </a>
+                    <a href="https://t.me/alena_pocheptsova" target="_blank" class="social-btn telegram">
+                        <i class="fa-brands fa-telegram"></i> Telegram
+                    </a>
+                    <a href="viber://chat?number=48782425330" target="_blank" class="social-btn viber">
+                        <i class="fa-brands fa-viber"></i> Viber
+                    </a>
+                    <a href="https://www.instagram.com/alena.stepbystep/" target="_blank" class="social-btn instagram">
+                        <i class="fa-brands fa-instagram"></i> Instagram
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61586018010769" target="_blank"
+                        class="social-btn facebook">
+                        <i class="fa-brands fa-facebook-f"></i> Facebook
+                    </a>
+                </div>
+            </div>
+            <div class="footer-logo">
+                <img src="логотип.jpg" alt="Step by Step" class="logo-footer">
+                <p>© 2024 Step by Step. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Modal for Diplomas -->
+    <div id="image-modal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption">Мои квалификации и дипломы</div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script>
+        function toggleService(id) {
+            const content = document.getElementById(id);
+            const icon = document.getElementById('icon-' + id);
+            
+            // Close all other accordions for clean UX
+            const allContents = ['desc1', 'desc2', 'desc3', 'desc4'];
+            allContents.forEach(contentId => {
+                if (contentId !== id) {
+                    const otherContent = document.getElementById(contentId);
+                    const otherIcon = document.getElementById('icon-' + contentId);
+                    if (otherContent && otherContent.style.maxHeight !== '0px') {
+                        otherContent.style.maxHeight = '0px';
+                        if (otherIcon) otherIcon.style.transform = 'rotate(0deg)';
+                    }
+                }
+            });
+
+            // Toggle clicked accordion
+            if (!content.style.maxHeight || content.style.maxHeight === '0px') {
+                content.style.maxHeight = content.scrollHeight + 'px';
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                content.style.maxHeight = '0px';
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+
+        function toggleFaq(id) {
+            const content = document.getElementById(id);
+            const icon = document.getElementById('icon-' + id);
+            
+            // Close all other accordions for clean UX
+            const allContents = ['faq1', 'faq2', 'faq3', 'faq4'];
+            allContents.forEach(contentId => {
+                if (contentId !== id) {
+                    const otherContent = document.getElementById(contentId);
+                    const otherIcon = document.getElementById('icon-' + contentId);
+                    if (otherContent && otherContent.style.maxHeight !== '0px') {
+                        otherContent.style.maxHeight = '0px';
+                        if (otherIcon) otherIcon.style.transform = 'rotate(0deg)';
+                    }
+                }
+            });
+
+            // Toggle clicked accordion
+            if (!content.style.maxHeight || content.style.maxHeight === '0px') {
+                content.style.maxHeight = content.scrollHeight + 'px';
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                content.style.maxHeight = '0px';
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+    </script>
+</body>
+
+</html>
