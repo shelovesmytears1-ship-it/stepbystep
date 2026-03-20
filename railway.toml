@@ -1,0 +1,6 @@
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Nowy folder/Dockerfile"
+
+[deploy]
+startCommand = "nginx -g 'daemon off;'"
