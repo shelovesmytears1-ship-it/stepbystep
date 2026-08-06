@@ -498,10 +498,12 @@ h2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 26px;
-    align-items: start;
+    align-items: stretch;
 }
 
 .service-card {
+    display: flex;
+    flex-direction: column;
     text-align: left;
     background: var(--bg-card);
     padding: 32px;
@@ -572,6 +574,7 @@ h2 {
 
 .accordion-btn {
     color: var(--primary);
+    margin-top: auto;
 }
 
 .faq-btn {
